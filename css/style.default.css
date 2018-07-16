@@ -1408,9 +1408,17 @@ p.social a.instagram {
   background-color: #cd4378;
   border-color: #cd4378;
 }
+p.social a.youtube {
+    background-color: #FC0D1B;
+    border-color: #FC0D1B;
+}
 p.social a.email {
   background-color: #4a7f45;
   border-color: #4a7f45;
+}
+p.social a.linkedin {
+    background-color: #1178B3;
+    border-color: #1178B3;
 }
 p.social a.link {
   background-color: #871AFF;
@@ -1438,6 +1446,14 @@ p.social.social--outline a.instagram {
 p.social.social--outline a.email {
   color: #4a7f45;
   border-color: #4a7f45;
+}
+p.social.social--outline a.linkedin {
+    color: #1178B3;
+    border-color: #1178B3;
+}
+p.social.social--outline a.youtube {
+    color: #FC0D1B;
+    border-color: #FC0D1B
 }
 p.social.social--outline a.link {
   color: #871AFF;
