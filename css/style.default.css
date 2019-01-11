@@ -1416,6 +1416,12 @@ p.social a.email {
   background-color: #4a7f45;
   border-color: #4a7f45;
 }
+
+p.social a.dribbble {
+  background-color: #EA4C89;
+  border-color: #EA4C89;
+}
+
 p.social a.linkedin {
     background-color: #1178B3;
     border-color: #1178B3;
@@ -1458,6 +1464,10 @@ p.social.social--outline a.youtube {
 p.social.social--outline a.link {
   color: #871AFF;
   border-color: #871AFF;
+}
+p.social.social--outline a.dribbble {
+  color: #E64F88;
+  border-color: #E64F88;
 }
 
 .image {
