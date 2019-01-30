@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alex Lee UX</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <!-- Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Ekko Lightbox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css">
+      
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+  </head>
+
+  <body style="background-color: white">
+
+    <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg navbar-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="font-family: 'Roboto', sans-serif; color: #1ABC9C;">alexmleeux</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link dropdownop" href="index.html" id="">Home</a>
+            </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle "  data-toggle="dropdown" id="navbaractive" class="nav-link"  href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu" style="background-color: transparent; border: none;">
+                  <a class="dropdown-item" id="navbaractive" href="lcspa.html">LC Spa</a>
+                  <a class="dropdown-item dropdownop" id="" href="vroombox.html">Vroombox</a>
+                  <a class="dropdown-item dropdownop" id="" href="amtrak.html">Amtrak</a>
+                  
+                  <!--<div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>-->
+                </div>
+                <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdownop aboutme" href="aboutme.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdownop" href="img/AlexLeeResume.pdf" id="">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col"><h1 style="font-size: 48px; color: #1ABC9C; font-family: 'Roboto Light' , sans-serif;">Miscellaneous</h1>
+            </div>
+        </div> 
+        <br />
+        <div class="row">
+            <div class="col">
+                <div align="center">
+                    <a href="img/misc/001.png" data-toggle="lightbox" data-title="Daily UI 001: Login/Sign Up" data-gallery="Daily UI" data-footer="I'll be posting these mainly on my Dribbble, so follow me there if you want to see more (when I get to them!).">
+                        <img class="img-fluid thumbnail" src="img/misc/001.png" style="max-height: 300px;">
+                    </a>
+                    <a href="img/misc/002.png" data-toggle="lightbox" data-title="Daily UI 002: Checkout" data-gallery="Daily UI" data-footer="I'll be posting these mainly on my Dribbble, so follow me there if you want to see more (when I get to them!).">
+                        <img class="img-fluid thumbnail" src="img/misc/002.png" style="max-height: 300px;">
+                    </a>
+                    <a href="img/misc/1.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop">
+                        <img class="img-fluid thumbnail" src="img/misc/pitch.jpg" style="max-height: 300px;">
+                    </a>
+                    <a href="img/misc/2.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/3.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/4.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/5.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/6.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/7.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/8.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                    <a href="img/misc/9.jpg" data-toggle="lightbox" data-title="Pitch Deck" data-gallery="Loop"></a>
+                </div>
+            </div>
+        </div>
+    </div>  
+  
+    
+
+    <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js.map"></script>
+      <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+      </script>
+
+  </body>
+    <br />
+    <br />
+  <footer>
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12" align="center" id="myFooter">
+                    <p>
+                        <a href="index.html" id="footerlink">Projects</a>  //  
+                        <a href="aboutme.html" id="footerlink">About Me</a>  //  
+                        <a href="img/AlexLeeResume.pdf" id="footerlink">Resume</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" align="center">
+                    <p class="social">
+                        <a href="https://www.linkedin.com/in/aml023/" title="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://dribbble.com/aml023" title="" class="dribbble"><i class="fa fa-dribbble"></i></a>
+                        <a href="https://www.facebook.com/aml023" title="" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/cupcak0saur/" title="" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCdXrLAvBmJAZIF1t3ARUGWA" title="" class="youtube"><i class="fa fa-youtube"></i></a></p>
+                </div>
+            </div> 
+        </div>
+    </footer>
+
+</html>

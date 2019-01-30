@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alex Lee UX</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <!-- Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="font-family: 'Roboto', sans-serif; color: #1ABC9C;">alexmleeux</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link dropdownop" href="index.html" id="">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdownop" data-toggle="dropdown" href="#"  href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu" style="background-color: transparent; border: none;">
+                  <a class="dropdown-item dropdownop" id="" href="lcspa.html">LC Spa</a>
+                  <a class="dropdown-item dropdownop" id="" href="vroombox.html">Vroombox</a>
+                  <a class="dropdown-item dropdownop" id="" href="amtrak.html">Amtrak Redesign</a>
+                  
+                  <!--<div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>-->
+                </div>
+                <span class="sr-only">(current)</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aboutme" id="navbaractive" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdownop" href="img/AlexLeeResume.pdf" id="">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+
+    <br />
+    <br />
+    <br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/about.jpg" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-8">
+                <h1 id="myHero" style="font-size: 32px;">Hi! I’m <span style="color: #1ABC9C">Alex Lee</span>, a <span class="hidden">UX Designer. 📱💻</span></h1>
+                <p>I'm an East-Bay Native and recent graduate from <b>The University of California, San Diego</b> with a Bachelor's in Cognitive Science with a Specialization in <b>Human-Computer Interaction</b> and a minor in Design.</p>
+                <p>I'm actively seeking UX roles where I can grow as a designer. In the meantime, I love reading Medium articles about UX, taking online design tutorials, and participating in UserTesting studies.</p>
+                <p>Outside of Design, my passions are in music, gaming, and sports. I love going to concerts and playing games with my friends, but I love cheering on the Golden State Warriors the most.</p>
+                <p>If you'd like to get in touch with any design opportunities or just talk about the Warriors, feel free to shoot me an email at <a href="mailto:alexmleeux@gmail.com">alexmleeux@gmail.com.</a></p>
+            </div>
+        </div>
+    </div>  
+  
+    
+
+    <!-- Bootstrap core JavaScript -->
+      
+      
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendor/bootstrap/js/transition.min.js"></script>
+
+      <script>
+        function changeColor() {
+          document.getElementById("navbaractive").style.color = "#EE6352";
+        }
+        
+        function changeFooterColor() {
+          document.getElementById("footerlink").style.color = "#EE6352";
+        }
+          
+        $(document).ready(function () {
+            $('span.hidden').fadeIn(800).fadeOut(800, function() {
+                $(this).text("UX Researcher. 👨‍🔬🔎")
+            }).fadeIn(800).fadeOut(800, function() {
+                $(this).text("Car DJ. 🚗🎶")
+            }).fadeIn(800).fadeOut(800, function() {
+                $(this).text("Soccer Enthusiast. ⚽")
+            }).fadeIn(800).fadeOut(800, function() {
+                $(this).text("UX Designer. 📱💻")
+            }).fadeIn(800);
+        })
+
+      </script>
+  </body>
+    <br />
+    <br />
+  <footer>
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12" align="center" id="myFooter">
+                    <p>
+                        <a href="index.html" id="footerlink">Projects</a>  //  
+                        <a href="aboutme.html" id="footerlink">About Me</a>  //  
+                        <a href="img/AlexLeeResume.pdf" id="footerlink">Resume</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" align="center">
+                    <p class="social">
+                        <a href="https://www.linkedin.com/in/aml023/" title="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://dribbble.com/aml023" title="" class="dribbble"><i class="fa fa-dribbble"></i></a>
+                        <a href="https://www.facebook.com/aml023" title="" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/cupcak0saur/" title="" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCdXrLAvBmJAZIF1t3ARUGWA" title="" class="youtube"><i class="fa fa-youtube"></i></a></p>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+</html>
